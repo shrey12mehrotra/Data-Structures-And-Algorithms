@@ -10,7 +10,7 @@ Given a matrix of size n x m, where every row and column is sorted in increasing
 #include<vector>
 using namespace std;
 
-bool search(vector<vector<int> > matrix, int n, int m, int x) 
+bool search(vector<vector<int>> matrix, int n, int m, int x) 
 {
     int i=0,j=m-1;
     if(x < matrix[0][0])
@@ -34,7 +34,7 @@ bool search(vector<vector<int> > matrix, int n, int m, int x)
         }
         return 0;
     }
-}
+} 
 
 int main()
 {
