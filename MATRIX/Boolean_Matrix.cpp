@@ -27,6 +27,7 @@ void booleanMatrix(vector<vector<int> > &matrix)
         int r = matrix.size();
         int c = matrix[0].size();
         int row[r]={};
+        
         int col[c]={};
         for(int i=0; i<r; i++)
         {
